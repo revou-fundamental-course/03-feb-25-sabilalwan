@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <!-- Tag untuk responsive design-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Website Konversi Suhu</title>
+
+  <!--Link CSS-->
+  <link rel="Stylesheet" href="css\styles.css">
+</head>
+
+
+
+<body>
+    <header>
+      <h1>Konversi Suhu</h1>
+    </header>  
+
+    <main>
+        <!--Introduction-->
+        <section>
+          <p>Masukkan suhu derajat celcius (&deg;C) ke kotak dibawah,
+             lalu klik tombol konversi untuk mendapatkan konversi
+            dalam bentuk fahrenheit (&deg;F)</p>
+        </section>
+
+        <!-- Form Input Suhu Yang Ingin Dikonversi-->
+         <section>
+          <form>
+            <div class="input-group">
+              <label for="main-input">Celcius</label>
+              <input type="number" id="main-input">
+          </div>
+
+          <div class="button-group">
+              <button>Konversi</button>
+              <button>Reset</button>
+              <button>Reseverse</button>
+          </div>
+        </form>
+      </section>
+
+      <!-- Hasil Konversi -->
+      <section>
+            <div>
+                <label for="main-result">fahrenheit</label>
+                <input type="number" id="main-result" readonly>
+            </div>
+      </section>
+
+      <!--cara konversi suhu-->
+      <section>
+          <div>
+              <label for="--cara konversi">Cara konversi</label>
+              <input type="text" id="cara-konversi" readonly>
+          </div>
+      </section>
+
+      <!--Penjelasan Rumus Konversi Suhu-->
+      <section>
+        <header>
+            <h3>Cara Konversi Dari Celcius (&deg;C) ke fahrenheit (&deg;F)</h3>
+        </header>
+        <article>
+          <p>Suhu <span>S</span> dalam derajat Fahrenheit (&deg;F) sama dengan suhu <span>S</span> dalam derajat Celcius (&deg;C) kali 9/5 tambah 32</p>
+          <p>S<sub>(&deg;F)</sub>=<span>(S<sub>(&deg;F)</sub> x 9/5) + 32</span></p>
+          <p> atau </p>
+          <p> S<sub>(&deg;F)</sub>=<span>(S<sub>(&deg;C)</sub> x 1.8) + 32</p>
+
+        </article>
+
+    </section>    
+  </main>
+
+    <footer> By sabilalwan</footer>
+</body>
+
+</html>
